@@ -6581,7 +6581,18 @@
                     "default": "false",
                     "label": "PUBLIC_ADD_VIEW",
                     "name": "PUBLIC_ADD_VIEW"
+                },
+                {
+                    "default": "admin",
+                    "label": "ADMIN_USERNAME",
+                    "name": "ADMIN_USERNAME"
+                },
+                {
+                    "default": "password",
+                    "label": "ADMIN_PASSWORD",
+                    "name": "ADMIN_PASSWORD"
                 }
+                
             ],
             "image": "archivebox/archivebox:latest",
             "logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/archivebox.png",
